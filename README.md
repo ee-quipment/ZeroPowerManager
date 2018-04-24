@@ -7,9 +7,9 @@ Supports the Arduino Zero SAMD21G18. Allows you to achieve 5 uA sleep current. T
 ### Results
 Here are some measured results to give you an idea of where your current consumption should be once everthing has been configured correctly. Remember to add back in any other current draws in your system like regulators and sensors.
 
-   Measured Adafruit M0 WiFi with:
+   Measured Adafruit Feather M0 WiFi with:
    - LiPo removed, LDO removed
-   - powered from separate 3.3V supply
+   - Powered from separate 3.3V supply
    - All ports + spi disabled
    - USB off
           
