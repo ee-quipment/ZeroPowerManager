@@ -2,7 +2,7 @@
 Library to support very low power Arduino Zero operation.
 
 ### Description
-Supports the Arduino Zero SAMD21G18. Allows you to achieve 5 uA sleep current. Tested on the Feather M0 board family. Uses the 32KHz external oscillator and RTC to wake up from sleep. The timer granularity is 1 mS.
+Supports the Arduino Zero SAMD21G18. Allows you to achieve 6 uA sleep current. Tested on the Feather M0 board family. Uses the 32KHz external oscillator and RTC to wake up from sleep. The timer granularity is 1 mS.
 
 ### Results
 Here are some measured results to give you an idea of where your current consumption should be once everthing has been configured correctly. Remember to add back in any other current draws in your system like regulators and sensors.
@@ -13,10 +13,10 @@ Here are some measured results to give you an idea of where your current consump
    - All ports + spi disabled
    - USB off
           
-   48 MHz: 6.3 mA  
-   8 MHz: 1.3 mA  
-   32 KHz: 160 uA  
-   Sleep :   5 uA  
+   48 MHz: 7.5 mA  
+   8 MHz: 1.5 mA  
+   32 KHz: 200 uA  
+   Sleep :   6 uA  
 
 
 ### Installation
