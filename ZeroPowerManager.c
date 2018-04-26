@@ -22,7 +22,7 @@
          8 MHz (OSC8M)  : 1.4 mA
          1 MHz (OSC8M/8): 1.4 mA    // not implemented, no improvement over 8 MHz
         32 KHz (XOSC32K): 200 uA
-
+ 
     On startup, SystemInit() configures the system clocks as follows:
     1) Enable XOSC32K clock (External on-board 32.768Hz oscillator), will be used as DFLL48M reference.
     2) Put XOSC32K as source of Generic Clock Generator 1
