@@ -25,7 +25,7 @@
 
  *****************************************************************************/
 
-
+ 
 #ifndef _ZeroPowerManager_H_
 #define _ZeroPowerManager_H_
 
